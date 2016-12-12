@@ -1,0 +1,12 @@
+export PS1="\[\033[1;94m\]\t \[\033[1;92m\]\w\[\033[1;91m\]> \[\033[0m\]"
+export LOG_FORMAT=colored
+
+alias ss="./script/server"
+alias st="./script/test"
+alias sc="./script/console"
+alias sw="./script/worker"
+alias be="bundle exec"
+alias gp="git pull"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
